@@ -78,7 +78,7 @@ threshold = st.sidebar.slider(
 # ==========================================================
 @st.cache_data
 def load_demo_data():
-    return pd.read_csv("data/demo_signal_data.csv")
+    return pd.read_csv("demo_signal_data.csv")
 
 if mode == "Upload Your Own Data":
     uploaded_file = st.sidebar.file_uploader(
